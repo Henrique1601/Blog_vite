@@ -31,9 +31,9 @@ const auth = (req, res, next) => {
 
 // Configuração do Cloudinary
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || 'dwg9yfhei',
-  api_key: process.env.CLOUDINARY_API_KEY || '572812245228456',
-  api_secret: process.env.CLOUDINARY_API_SECRET || 'LTkhUV8kmHczq0G6JGtna5pjuww',
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || '',
+  api_key: process.env.CLOUDINARY_API_KEY || '',
+  api_secret: process.env.CLOUDINARY_API_SECRET || '',
 });
 
 // Criar post
