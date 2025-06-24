@@ -1,0 +1,8 @@
+input:focus{
+  box-shadow: 1px 1px 1px  0.2rem rgb(0, 123, 255);
+  
+}
+input[type="file"] {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}

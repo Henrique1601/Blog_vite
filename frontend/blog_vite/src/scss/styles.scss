@@ -1,0 +1,37 @@
+// Import all of Bootstrap’s CSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root{
+  --bs-body-bg: #000000c0;
+  --bs-body-color: #f8f9fa;
+}
+
+
+body{
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+// Navbar
+
+// card
+.card{
+  transition: transform 0.2s;
+}
+
+.card:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow:4px 4px 10px rgb(255, 254, 254);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-subtitle{
+  color: var(--bs-body-color);
+}
+
+// Label/Inputs
+
+.form-label{
+  color: var(--bs-body-color);
+}
